@@ -1,0 +1,9 @@
+def calculate_subpeptides(n):
+    num_subpeptides = (n * (n - 1)) // 2
+    return num_subpeptides
+
+# Sample Input
+input_length = 31315
+
+result = calculate_subpeptides(input_length)
+print(result)
